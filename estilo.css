@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'youtube';
+    src: url(fonts/Youtube\ Star.ttf);
+}
+
+@font-face {
+    font-family: 'supermario';
+    src: url(fonts/SuperMario256.ttf);
+}
+
+
+
+:root {
+    --cor1: #000;
+    --cor2: red;
+    --cor3: #fff;
+    --cor4: #999999;
+
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+.video{padding: 20px;}
+
+body {
+    background-color: #064b999a;
+}
+
+strong {
+    background-color: #274A73;
+    padding: 3px;
+    border-radius: 15px;
+    color: #ffffffad;
+    text-decoration: dotted;
+}
+
+.odyssey {
+    padding-left: 0px;
+    padding-top: 0px;
+    background-color: #274A73;
+    margin: auto;
+    border: #000;
+    ;
+}
+
+p {
+    text-indent: 3em;
+    padding: 20px;
+}
+
+header {
+    background-image: linear-gradient(to top, #042B59, #274A73);
+    min-height: 200px;
+    max-height: 1080px;
+    padding-bottom: 40px;
+}
+
+header>h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.1em;
+    padding-top: 40px;
+    font-family: 'supermario';
+    font-weight: lighter;
+}
+
+header>h2 {
+    color: white;
+    text-align: center;
+    font-family: 'youtube';
+    font-size: 1.8em;
+    letter-spacing: 0.5em;
+
+}
+
+
+article {
+    background-color: #fff;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding-top: 0px;
+    padding-left: 0px;
+    text-align: center;
+    color: #000;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 192);
+    line-height: 1.7em;
+
+}
+
+main img {
+    width: 100%;
+}
+
+article>h2 {
+    background-color: #274A73;
+    box-shadow: 0px 7px 7px #7153ae95;
+    left: auto;
+    color: #fff;
+    font-family: 'youtube';
+    padding: 8px;
+    font-size: 1.6em;
+    letter-spacing: 0.5em;
+}
+
+article>h3 {
+    font-size: 1.3em;
+    line-height: 1.4em;
+
+}
+
+article a {
+    background-color: #042B59;
+    color: #fff;
+    border-radius: 0px 10px 0px 10px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+article a:hover {
+    background-color: #274A73;
+}
+
+
+
+footer {
+    background-color: #042B59;
+    color: #ffffff;
+    text-align: center;
+    height: 130px;
+
+}
+
+footer>p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #5e85b0;
+}
